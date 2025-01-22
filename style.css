@@ -10,6 +10,7 @@
 
 body{
     background-color: rgba(241, 241, 243, 1);
+    
 }
 
 .bd{
@@ -286,5 +287,55 @@ textarea{
 
 textarea::placeholder{
     padding: 15px 0 15px 0;
+}
+
+.subscribe-form{
+    display:flex ;
+    justify-content: space-evenly;
+}
+.input{
+    width: 600px;
+    height: 55px;
+    border: none;
+}
+.subscribe-btn{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    background-color: rgba(0, 106, 80, 1);
+    padding: 13px 20px;
+    border-radius: 8px;
+    border: none;
+    width: 139px;
+    height: 56px;
+    margin-top:32px ;
+}
+
+.input::placeholder{
+    padding: 18px 403px 18px 40px;
+}
+
+footer{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.bottom-part{
+    background-color: #C6E4D6;
+    text-align: center;
+    border-radius: 24px;
+    height: 395px;
+    padding: 80px 100px;
+    margin-top: 80px;
+}
+.fix{
+    display: flex;
+    gap: 23px;
+    padding: 32px 570px ;
+}
+
+.done{
+    text-align: center;
+    
 }
 
