@@ -70,6 +70,7 @@ main{
 .scnd-part-description{
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
+    font-family: 'Fira Sans';
 }
 
 .card1{
@@ -80,6 +81,17 @@ main{
     border-radius: 16px;
     border: none;
 
+}
+.card1-heading{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.card1-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-family: 'Fira Sans';
 }
 
 .card2{
@@ -92,6 +104,17 @@ main{
 
 }
 
+.card2-heading{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.card2-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-family: 'Fira Sans';
+}
 .card3{
     padding: 32px 32px;
     background-color:rgba(247, 235, 207, 1);
@@ -100,6 +123,18 @@ main{
     border-radius: 16px;
     border: none;
 
+}
+
+.card3-heading{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.card3-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-family: 'Fira Sans';
 }
 
 /* button section */
@@ -268,7 +303,7 @@ font-size: 16px;
 textarea{
     border: none;
     height: 40px;
-  width: 1032px;
+    width: 1032px;
     text-align: center;
 }
 .donate-btn{
@@ -337,7 +372,8 @@ footer{
 .fix{
     display: flex;
     gap: 20px;
-    padding: 32px 570px;
+    padding: 32px 580px;
+    
 }
 
 .done{
@@ -360,10 +396,7 @@ footer{
     padding: 24px 160px;
 }
 .sign{
-    color: #006A50;
-    font-size: 18px;
-    font-weight: 400;
-
+    margin-top: 25px;
 }
 
 .signin{
@@ -371,4 +404,12 @@ footer{
     border: 1px solid rgba(0, 106, 80, 1);
     padding: 15px 30px;
     border-radius: 8px;
+    color: #006A50;
+    font-weight: 700;
+    font-size: 18px;
+}
+hr{
+    color: rgba(14, 14, 14, 0.1);
+    width: 1122px;
+    margin: 0 auto;
 }
