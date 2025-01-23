@@ -7,7 +7,11 @@
 
     
 }
-
+.header{
+    color: #0E0E0E;
+    font-size:32px ;
+    font-weight: 700;
+}
 body{
     background-color: rgba(241, 241, 243, 1);
     
@@ -297,6 +301,7 @@ textarea::placeholder{
     width: 600px;
     height: 55px;
     border: none;
+   
 }
 .subscribe-btn{
     font-size: 18px;
@@ -309,6 +314,7 @@ textarea::placeholder{
     width: 139px;
     height: 56px;
     margin-top:32px ;
+    margin-right: ;
 }
 
 .input::placeholder{
@@ -330,12 +336,39 @@ footer{
 }
 .fix{
     display: flex;
-    gap: 23px;
-    padding: 32px 570px ;
+    gap: 20px;
+    padding: 32px 570px;
 }
 
 .done{
     text-align: center;
-    
+    margin-top: 50px;
 }
 
+.form{
+    text-align: center;
+    margin-left: 70px;
+}
+
+.spam{
+    text-align: center;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 160px;
+}
+.sign{
+    color: #006A50;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.signin{
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 106, 80, 1);
+    padding: 15px 30px;
+    border-radius: 8px;
+}
